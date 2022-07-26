@@ -12,9 +12,12 @@
   list-style-type: none;
 }
 
-.container {
-  width: 1920px;
-  margin: 0 auto;
+h1,
+h2,
+h3,
+ul {
+  margin-bottom: 0px;
 }
 
 @import "blocks/header";
+@import "blocks/button";

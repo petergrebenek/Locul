@@ -1,0 +1,13 @@
+.btn {
+  width: 271px;
+  height: 80px;
+  background: $main-color;
+  border-radius: 20px 20px 20px 0px;
+  border: none;
+  font-size: 25px;
+  line-height: 38px;
+  color: #ffffff;
+  &_rounded {
+    border-radius: 20px;
+  }
+}

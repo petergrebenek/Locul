@@ -1,10 +1,39 @@
 .header {
   margin: 85px 142px 0 166px;
   &__wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
     justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    display: flex;
+    img {
+      width: 35px;
+    }
+  }
+
+  &__title {
+    padding-left: 14px;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 52px;
+    color: #58a9a5;
   }
   &__menu {
     display: flex;
+    justify-content: center;
+  }
+  &__link {
+    display: block;
+    padding-right: 85px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color: #404242;
+    &:hover {
+      text-decoration: none;
+      color: #404242;
+    }
   }
 }
