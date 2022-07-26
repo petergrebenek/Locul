@@ -1,0 +1,10 @@
+.header {
+  margin: 85px 142px 0 166px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__menu {
+    display: flex;
+  }
+}
