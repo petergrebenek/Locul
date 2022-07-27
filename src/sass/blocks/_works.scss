@@ -1,0 +1,56 @@
+.works {
+  &__wrapper {
+    padding: 120px 142px 0 166px;
+  }
+  &__subtitle {
+    margin-top: 20px;
+  }
+  &__content {
+    margin-top: 71px;
+    display: flex;
+    height: 350px;
+  }
+  &__text {
+    width: 549px;
+    position: relative;
+    padding: 70px 106px 89px 115px;
+    background: #ccf0e6;
+    border-radius: 0px 10px 10px 0px;
+  }
+  &__descr {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #486958;
+  }
+  &__img {
+    width: 1063px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &__link {
+    display: inline-block;
+    margin-top: 41px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #486958;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    &:before {
+      content: "";
+      background: url(../icons/play.png) center center/cover no-repeat;
+      position: absolute;
+      width: 128px;
+      height: 128px;
+      top: 182px;
+      left: -64px;
+    }
+    &:hover {
+      text-decoration: none;
+      color: #486958;
+    }
+  }
+}
