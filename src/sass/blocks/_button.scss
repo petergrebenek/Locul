@@ -7,6 +7,9 @@
   font-size: 25px;
   line-height: 38px;
   color: #ffffff;
+  &:hover {
+    background: #758281;
+  }
   &_rounded {
     border-radius: 20px;
   }
