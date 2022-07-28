@@ -8,10 +8,9 @@
   &__content {
     margin-top: 71px;
     display: flex;
-    height: 350px;
   }
   &__text {
-    width: 549px;
+    flex: 0 0 549px;
     position: relative;
     padding: 70px 106px 89px 115px;
     background: #ccf0e6;
@@ -24,11 +23,9 @@
     color: #486958;
   }
   &__img {
-    width: 1063px;
+    flex: 0 0 1063px;
     img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+      max-width: 100%;
     }
   }
   &__link {
@@ -45,7 +42,7 @@
       position: absolute;
       width: 128px;
       height: 128px;
-      top: 182px;
+      transform: translateY(-40%);
       left: -64px;
     }
     &:hover {
